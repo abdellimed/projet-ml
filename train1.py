@@ -18,8 +18,7 @@ import mlflow
 import mlflow.sklearn
 
 import os
-os.environ["AWS_ACCESS_KEY_ID"] = "AKIAV2NNNR6IYLNIL74O"
-os.environ["AWS_SECRET_ACCESS_KEY"] = "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"
+
 
 mlflow.set_tracking_uri("http://10.185.33.168:5000/")
 
